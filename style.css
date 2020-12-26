@@ -17,12 +17,17 @@ header > h1 {
     color: white;
     text-align: center;
     font-family: 'Passion One', cursive;
-    font-weight: bold;
+    font-style: bold;
+    font-size: 10rem;
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
 
 header > p {
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    padding: 0px;
     text-align: center;
 }
 
@@ -47,18 +52,24 @@ a {
     background-color: black;
 }
 
-.pares > p {
-    background-color: black;
-    margin: 1px solid white;
-    padding: 0px;
-}
-
 #imag1 {
-    background-image: url('imagens/background001.jpg');
+    background: black url('imagens/background001.jpg') center center no-repeat fixed;
+    background-size: cover;
 }
 
 #imag2 {
-    background-image: url('imagens/background002.jpg');
+    background: black url('imagens/background002.jpg') center center no-repeat fixed;
+    background-size: cover
+}
+
+div {
+    background-color: rgba(0, 0, 0, 0.493);
+}
+
+div > p {
+    width: 30%;
+    margin: 0px;
+    padding: 0px;
 }
 
 footer {
