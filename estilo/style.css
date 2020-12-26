@@ -31,8 +31,8 @@ header > h1 {
 }
 
 header > p {
-    font-family: var(--fonte1)
-    paddin
+    font-family: var(--fonte1);
+    padding-bottom: 50px;
 
 }
 
@@ -67,6 +67,16 @@ section.imagem {
 section.imagem > p {
     width: 400px;
     background-color: rgba(0, 0, 0, 0.300);
+}
+
+section#img1 {
+    background: black url('../imagens/background001.jpg') center center no-repeat fixed;
+    background-size: cover;
+}
+
+section#img2 {
+    background: black url('../imagens/background002.jpg') center center no-repeat fixed;
+    background-size: cover
 }
 
 footer {
