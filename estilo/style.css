@@ -82,7 +82,7 @@ section#img2 {
 footer {
     background-color: black;
     color: white;
-    font-family: var(--fonte1)
+    font-family: var(--fonte1);
     text-align: center;
     padding: 10px;
 }
